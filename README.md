@@ -2,7 +2,7 @@
 
 This repository contains a specialized implementation for fine-tuning the **Microsoft Phi-3-mini** model using the **QLoRA** (Quantized Low-Rank Adaptation) technique. The project is optimized for high efficiency and low VRAM usage thanks to the **Unsloth** library.
 
-## 🚀 Key Features
+## Key Features
 
 - **Model:** Phi-3-mini-4k-instruct.
 - **Technique:** **QLoRA** (4-bit quantization) for memory-efficient training.
@@ -10,7 +10,7 @@ This repository contains a specialized implementation for fine-tuning the **Micr
 - **Format:** Native Chat Template integration (Phi-3 tags: `<|user|>`, `<|assistant|>`, `<|end|>`).
 - **Hardware:** Compatible with NVIDIA T4 GPUs (Free tier Google Colab).
 
-## 📊 Dataset & Task
+## Dataset & Task
 
 The model was fine-tuned on a custom dataset of 500 samples specifically designed for **HTML Data Extraction**.
 
@@ -34,13 +34,13 @@ The training process includes:
 - Using **Gradient Checkpointing** for maximum memory efficiency.
 - Exporting the final model via **16-bit merging** for production use.
 
-## 📦 Model Access
+## Model Access
 
 The final merged model and adapters are available on my Hugging Face profile:
 
 - **Model Repository:** [Hedi-Bk/Phi-3_FT_with_500_Data_SFT](https://huggingface.co/Hedi-Bk/Phi-3_FT_with_500_Data_SFT)
 
-## 📜 Requirements
+## Requirements
 
 - `unsloth`
 - `xformers`
