@@ -17,7 +17,7 @@ The model was fine-tuned on a custom dataset of 500 samples specifically designe
 - **Input:** Raw HTML snippets or web content.
 - **Output:** Structured JSON data.
 
-## 🛠️ Installation & Usage
+## Installation & Usage
 
 You can run this project directly in your browser using the provided Google Colab notebook.
 
@@ -49,4 +49,4 @@ The final merged model and adapters are available on my Hugging Face profile:
 - `transformers`
 - `trl`
 
-*Created by [Hedi-Bk](https://www.google.com/search?q=https://github.com/Hedi-Bk) - Exploring efficient LLM fine-tuning.*
+*Created by [Hedi-Bk](https://github.com/Hedi-Bk) - Exploring efficient LLM fine-tuning.*
