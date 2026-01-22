@@ -23,7 +23,7 @@ You can run this project directly in your browser using the provided Google Cola
 
 ### 1. Open in Google Colab
 
-Click the link below to access the full training pipeline: [👉 Access the Colab Notebook](https://colab.research.google.com/drive/1chO1LBnY4d3l0kxTWCCHaXXOYRsxZjSi)
+Click the link below to access the full training pipeline: 👉 [![Open In Colab](https://img.shields.io/badge/Google_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1chO1LBnY4d3l0kxTWCCHaXXOYRsxZjSi)
 
 ### 2. Implementation Details
 
