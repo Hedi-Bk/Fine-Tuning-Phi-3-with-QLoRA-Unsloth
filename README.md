@@ -1,6 +1,6 @@
 # Fine-Tuning Phi-3 with QLoRA & Unsloth
 
-This repository contains a specialized implementation for fine-tuning the **Microsoft Phi-3-mini** model using the **QLoRA** (Quantized Low-Rank Adaptation) technique. The project is optimized for high efficiency and low VRAM usage thanks to the **Unsloth** library.
+This repository contains a specialized implementation for fine-tuning the **Microsoft Phi-3-mini** model using the **QLoRA** (Quantized Low-Rank Adaptation) technique.
 
 ## Key Features
 
@@ -21,18 +21,7 @@ The model was fine-tuned on a custom dataset of 500 samples specifically designe
 
 You can run this project directly in your browser using the provided Google Colab notebook.
 
-### 1. Open in Google Colab
-
 Click the link below to access the full training pipeline: 👉 [![Open In Colab](https://img.shields.io/badge/Google_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1chO1LBnY4d3l0kxTWCCHaXXOYRsxZjSi)
-
-### 2. Implementation Details
-
-The training process includes:
-
-- Loading the model in **4-bit precision**.
-- Adding **LoRA adapters** to specific target modules (`q_proj`, `k_proj`, `v_proj`, etc.).
-- Using **Gradient Checkpointing** for maximum memory efficiency.
-- Exporting the final model via **16-bit merging** for production use.
 
 ## Model Access
 
@@ -40,13 +29,6 @@ The final merged model and adapters are available on my Hugging Face profile:
 
 - **Model Repository:** [Hedi-Bk/Phi-3_FT_with_500_Data_SFT](https://huggingface.co/Hedi-Bk/Phi-3_FT_with_500_Data_SFT)
 
-## Requirements
 
-- `unsloth`
-- `xformers`
-- `bitsandbytes`
-- `peft`
-- `transformers`
-- `trl`
 
 *Created by [Hedi-Bk](https://github.com/Hedi-Bk) - Exploring efficient LLM fine-tuning.*
